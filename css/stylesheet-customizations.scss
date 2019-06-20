@@ -1,0 +1,48 @@
+---
+# Provide front matter so Jekyll processes this file as SASS.
+---
+
+// Put your custom CSS here if you want to override the defaults.
+// Here are some common customizations for colors
+
+// Customize the background color
+body {
+   background-color: #ffffff;
+}
+
+// Customize the menubar color
+.ui.menu {
+  // background: $background-start;
+}
+
+// Customize the home page icon colors
+.icon-color {
+  // color: silver;
+}
+
+figcaption{
+	font-size:14px;
+	text-align:center;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+.video-container iframe,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+}
+
+/* And set the max-width of the parent element */
+.video-wrap {
+  width: 100%;
+}

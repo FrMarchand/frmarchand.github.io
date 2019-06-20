@@ -1,0 +1,24 @@
+<!-- Used by all builtin themes. Now we list number of essays and projects. -->
+
+{% assign project_pages = site.pages | where: "type", "project" | where_exp: "page", "page.draft != true" %}
+{% assign num_projects = project_pages.size %}
+
+  <div class="ui centered grid">
+    <div class="center aligned column">
+      <div style="margin-top: 50px" class="row">
+        <a href="{{ site.baseurl }}/">
+          <h1 class="ui header">{{ site.data.bio.basics.name }}</h1>
+        </a>
+      </div>
+      <div style="margin-top: 20px" class="row">
+        <div class="ui compact stackable text menu">
+          <a href="{{ site.baseurl }}/" class="item">Accueil</a>
+          {% if num_projects > 0 %}
+          <a href="{{ site.baseurl }}/projects" class=" {% if include.active == "projects" %} active {% endif %}item">Projets ({{ num_projects }})</a>
+          {% endif %}
+          <a href="{{ site.baseurl }}/bio" class=" {% if include.active == "bio" %} active {% endif %} item">{{ site.bio-page-label }}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<div class="ui divider"></div>

@@ -1,0 +1,15 @@
+<div style="margin-top: 10px; " class="ui center aligned grid">
+    <div class="middle aligned column">
+    	<div id="pdf-container" ></div>
+    </div>
+</div>
+
+<script src="{{ site.baseurl }}/js/pdfobject.min.js"></script>
+<script>
+var options = {
+	width: "800px",
+    height: "2100px",
+    pdfOpenParams: { view: 'FitH', page: '1' }
+};
+PDFObject.embed("{{ site.baseurl }}/download/cv_fm_2019.pdf", "#pdf-container", options);
+</script>

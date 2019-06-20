@@ -1,0 +1,192 @@
+{
+  "basics": {
+    "name": "François Marchand",
+    "label": "B. Ing.",
+    "picture": "https://avatars2.githubusercontent.com/u/7584618?s=460&v=4",
+    "email": "francois.marchand@live.com",
+    "phone": "514-797-1704",
+    "website": "https://frmarchand.github.io",
+    "summary": "Gradué de l'École de Technologie Supérieure en Génie Logiciel depuis le printemps 2019",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Candiac",
+      "countryCode": "Canada",
+      "region": "Quebec"
+    },
+    "profiles": [
+      {
+        "network": "github",
+        "username": "FrMarchand",
+        "url": "http://github.com/frmarchand"
+      },
+      {
+        "network": "linkedin",
+        "username": "françoismarchand",
+        "url": "http://linkedin.com/in/françois-marchand-2b1950120"
+      },
+    ]
+  },
+  "interests": [
+    {
+      "name": "Infographie 3D",
+      "keywords": [
+        "OpenGL"
+      ]
+    },
+    {
+      "name": "Génération procédurale",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "UI/UX",
+      "keywords": [
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Langages et cadriciels",
+      "level": "",
+      "keywords": [
+        "C/C++",
+        "Python",
+        "Java",
+        "Qt5"
+      ]
+    },
+    {
+      "name": "Librairies et APIs",
+      "level": "",
+      "keywords": [
+        "OpenGL",
+        "three.js"
+      ]
+    },
+    {
+      "name": "Technologies web",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "PHP"
+      ]
+    },
+    {
+      "name": "Base de données",
+      "level": "",
+      "keywords": [
+        "SQL",
+        "MySQL",
+        "SQLite",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "name": "Logiciels",
+      "level": "",
+      "keywords": [
+        "Maya",
+        "Blender",
+        "Photoshop"
+      ]
+    },
+    {
+      "name": "Environnements",
+      "level": "",
+      "keywords": [
+        "Windows",
+        "Ubuntu",
+        "CentOS"
+      ]
+    },
+  ],
+  "education": [
+    {
+      "institution": "École de technologie supérieure, Montréal, QC",
+      "area": "Génie Logiciel",
+      "studyType": "B. Ing.",
+      "startDate": "2015-08-01",
+      "endDate": "2019-04-25",
+      "gpa": "4.11/4.3",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "Broadsign",
+      "position": "Développeur C++/Qt – Broadsign Core (stage III)",
+      "website": "https://broadsign.com",
+      "startDate": "2018-01-01",
+      "endDate": "2018-04-25",
+      "summary": "",
+      "highlights": [
+        "Étendre l’API de Broadsign Server",
+        "Créer des interfaces utilisateurs et leurs fonctionnalités sous-jacentes dans Broadsign Administrator",
+        "Intégration d’APIs externes dans Broadsign Player (Amazon S3)"
+      ]
+    },
+    {
+      "company": "Autodesk Media & Entertainment",
+      "position": "Développeur de logiciels – Maya Fondation (stage II)",
+      "website": "https://www.autodesk.com",
+      "startDate": "2017-01-01",
+      "endDate": "2017-04-25",
+      "summary": "",
+      "highlights": [
+        "Étendre les fonctions et la couverture de l’API OpenMaya",
+        "Améliorer la stabilité de Maya en participant à la résolution de bugs et au perfectionnement des procédures",
+        "Créer des tests unitaires"
+      ]
+    },
+    {
+      "company": "Autodesk Media & Entertainment",
+      "position": "Développeur de logiciels – Maya UI (stage I)",
+      "website": "https://www.autodesk.com",
+      "startDate": "2016-01-01",
+      "endDate": "2016-04-25",
+      "summary": "",
+      "highlights": [
+        "Développer des prototypes et apporter des améliorations à l'interface utilisateur de Maya",
+        "Travailler avec l'équipe de développement pour concevoir et mettre en œuvre une solution qui répond aux exigences des clients",
+        "Participer à la conception, aux tests et au développement itératif pour affiner la solution globale de produit en utilisant le processus de développement Agile"
+      ]
+    },
+    {
+      "company": "École de Technologie Supérieure (ÉTS)",
+      "position": "Chargé de laboratoire du cours Structures de données et algorithmes (GPA665)",
+      "website": "https://www.etsmtl.ca",
+      "startDate": "2016-01-01",
+      "endDate": "2016-04-25",
+      "summary": "",
+      "highlights": [
+        "Dispenser les séances de laboratoire et travaux pratiques axés sur la résolution de problèmes classiques réalisés en langage C",
+        "Guider, conseiller et accompagner les étudiants dans leurs projets",
+        "Évaluer/corriger les travaux des étudiants"
+      ]
+    },
+    {
+      "company": "THD-Labs",
+      "position": "Technologue en informatique (R&D contractuel)",
+      "website": "http://www.thd-labs.com",
+      "startDate": "2015-06-01",
+      "endDate": "2015-08-25",
+      "summary": "",
+      "highlights": [
+        "Créer une interface graphique personnalisée pour le logiciel d’audio Reaper",
+        "Rechercher et développer un pilote permettant la communication MIDI entre l’interface d’automation (USB) et le logiciel d’audio Reaper",
+        "Compiler le pilote pour Windows et Mac",
+        "Réaliser une multitude de tests avec la console physique"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Disponibles sur demande",
+      "reference": ""
+    }
+  ]
+}
